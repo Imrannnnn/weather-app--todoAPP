@@ -7,7 +7,7 @@ if(input.value === '') {
 
 } else{
     let li = document.createElement("li");
-    li.innerHTML = input.value;
+    li.innerHTML = input.value.toUpperCase();
     listContainer.appendChild(li);
 
     let span = document.createElement("span");
@@ -38,4 +38,4 @@ function showTask() {
     listContainer.innerHTML = localStorage.getItem("data")
 }
 
-showTask()
+showTask() 

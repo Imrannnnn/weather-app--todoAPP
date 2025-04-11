@@ -46,10 +46,12 @@ function createPassword() {
     
 
     while(length > password.length) {
+
         password += allChars[Math.floor(Math.random() * allChars.length)]
+        
     }
 
-passwordbox.value = password
+
 }
 
 function copyPassword() {

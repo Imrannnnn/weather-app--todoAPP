@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+.moodApp{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0b0b68, #95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.moodApp p {
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: 500;   
+
+}
+
+
+button {
+
+    gap: 2rem;
+    margin-top: 5%;
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+h2 {
+    margin-top:  50px;
+    font-size:  2rem;
+}
+li {
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    
+}
